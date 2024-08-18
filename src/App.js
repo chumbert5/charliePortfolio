@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./App.scss";
+import Main from "./containers/Main";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
+    <div>
+      <Main />
     </div>
   );
 }
