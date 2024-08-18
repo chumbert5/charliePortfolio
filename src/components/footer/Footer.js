@@ -11,7 +11,9 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("2024 Charlie Humbert")}
-          </a>
+        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          Theme by{" "}
         </p>
       </div>
     </Fade>
