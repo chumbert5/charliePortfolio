@@ -185,6 +185,7 @@ const workExperiences = {
         "Create and maintain inventory sheet of office supplies",
         "Make sales calls, migrate sales CRM from Google Sheets to Airtable",
         "Purchase and manage Synology NAS for office"
+        ]
     },
     {
       role: "Pizza Cook and Delivery Driver",
@@ -274,7 +275,7 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Bob's Burgers Spec",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
