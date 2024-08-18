@@ -212,7 +212,7 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/oil2000.jpg"),
       projectName: "Oil 2000",
       projectDesc: "A comedy short I wrote and directed in Fall 2022",
       footerLink: [
@@ -224,13 +224,25 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/oil2000.jpg"),
-      projectName: "Oil 2000",
-      projectDesc: "A comedy short I wrote and directed in Fall 2022",
+      image: require("./assets/images/MyMainSqueeze.jpg"),
+      projectName: "My Main Squeeze",
+      projectDesc: "Winner of Ohio University's 2024 48-hour Film Shootout. I co-wrote, DP'ed, and edited",
       footerLink: [
         {
           name: "Watch it here",
-          url: "https://youtube.com/watch?v=Sb4DrsD5hEc"
+          url: "https://youtube.com/watch?v=ir-1YJ0kQxA"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/overdue.jpg"),
+      projectName: "Overdue",
+      projectDesc: "Winner of Ohio University's 2024 48-hour Film Shootout. I co-wrote, DP'ed, and edited",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=KzjpZy3RlMM"
         }
         //  you can add extra buttons here.
       ]
@@ -248,46 +260,46 @@ const achievementSection = {
     "Various projects I've written",
 
   achievementsCards: [
-    {
-      title: "Oil 2000",
-      subtitle:
-        "The story of two kids and their magic oil well.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Script Image",
-      footerLink: [
-        {
-          name: "Download link",
-          url: "null"
-        },
-      ]
-    },
+    
     {
       title: "Go Fish",
       subtitle:
         "A sci-fi horror/western script inspired by The Twilight Zone",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      image: require(""),
+      imageAlt: "Script",
       footerLink: [
         {
           name: "Email me for a sample",
-          email_address: "charlie_humbert@icloud.com"
+          url: "mailto:charlie_humbert@icloud.com"
         }
       ]
     },
-
     {
       title: "Bob's Burgers Spec",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      subtitle: "Currently work-in-progress",
+      image: require(""),
+      imageAlt: "Script",
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Email me for a sample",
+          url: "mailto:charlie_humbert@icloud.com"
         }
       ]
     }
+    {
+      title: "Oil 2000",
+      subtitle:
+        "The story of two kids and their magic oil well.",
+      image: require(""),
+      imageAlt: "Script Image",
+      footerLink: [
+        {
+          name: "Download link",
+          url: "https://drive.google.com/uc?export=download&id=1pVG2zsV-WHVDXPQwYvxhxhbZvdNXUlD0"
+        },
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
