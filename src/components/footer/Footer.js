@@ -13,7 +13,7 @@ export default function Footer() {
           {emoji("2024 Charlie Humbert")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+          {" "}
         </p>
       </div>
     </Fade>
