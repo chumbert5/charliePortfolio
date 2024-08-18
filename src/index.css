@@ -7,14 +7,14 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-/* Set the background color for the whole page */
+/* Set the background color for the entire viewport */
 html {
-  background-color: #fc7405; /* Orange background behind the content */
+  background-color: #fc7405 !important; /* Orange background behind the content */
 }
 
 /* Main page background color */
 body {
-  background-color: #ffffff; /* Set the main page background color */
+  background-color: #ffffff !important; /* Set the main page background color */
 }
 
 /* Ensure no other element overrides this background */
@@ -22,8 +22,8 @@ body {
   background-color: transparent !important;
 }
 
-/* Check for other specific elements with potential background color */
-.some-container-class {
+/* Ensure no specific elements are applying a different background color */
+.some-container-class, .header, .footer, .main-content {
   background-color: transparent !important; /* Adjust as needed */
 }
 
