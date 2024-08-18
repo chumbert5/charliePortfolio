@@ -165,7 +165,7 @@ const workExperiences = {
     {
       role: "Archives Intern",
       company: "Nickelodeon Animation Studio",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/Nickelodeon.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
