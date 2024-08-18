@@ -224,16 +224,17 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/oil2000.jpg"),
+      projectName: "Oil 2000",
+      projectDesc: "A comedy short I wrote and directed in Fall 2022",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=Sb4DrsD5hEc"
         }
+        //  you can add extra buttons here.
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
