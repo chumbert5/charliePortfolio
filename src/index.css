@@ -20,11 +20,15 @@ html,
 body {
   scroll-behavior: smooth;
 }
+html {
+  background-color: #fc7405; /* Set the background behind the content to orange */
+}
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff; /* Keep the main page background white */
 }
 /* Media Query */
 @media (max-width: 1380px) {
