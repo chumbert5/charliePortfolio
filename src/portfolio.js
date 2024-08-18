@@ -167,10 +167,12 @@ const workExperiences = {
       company: "Nickelodeon Animation Studio",
       companylogo: require("./assets/images/Nickelodeon.png"),
       date: "June 2024 – August 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Maintain physical assets for art galleries and offsite storage",
+        "Assess, reorganize, and rehouse collected materials from vendor studio dating back to 1991",
+        "Add to and maintain digital database using FileMaker Pro",
+        "Coordinated with production staff to complete asset requests using VMS web",
+        "Developed a streaming platform concept for Nickelodeon as part of a group project"
       ]
     },
     {
@@ -178,14 +180,18 @@ const workExperiences = {
       company: "Black Valley Films",
       companylogo: require("./assets/images/BVF.png"),
       date: "August 2023 – December 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Reorganize hard drive file system dating back to 2002",
+        "Create and maintain inventory sheet of office supplies",
+        "Make sales calls, migrate sales CRM from Google Sheets to Airtable",
+        "Purchase and manage Synology NAS for office"
     },
     {
       role: "Pizza Cook and Delivery Driver",
       company: "LaRosa's Pizza",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/larosas.png"),
+      date: "Jul 2018 – Aug 2021",
+      desc: "Make pizzas, etc."
     }
   ]
 };
