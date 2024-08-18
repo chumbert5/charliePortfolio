@@ -19,6 +19,7 @@ code {
 html,
 body {
   scroll-behavior: smooth;
+  background-color: #ffa03a; /* Set background color to white */
 }
 body {
   margin: 0;
