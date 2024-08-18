@@ -16,19 +16,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-html,
-body {
-  scroll-behavior: smooth;
-}
 html {
-  background-color: #fc7405; /* Set the background behind the content to orange */
+  background-color: #fc7405; /* Background behind the content */
+  height: 100%; /* Ensure html takes full height */
+  width: 100%; /* Ensure html takes full width */
 }
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff; /* Keep the main page background white */
+  background-color: #ffffff; /* Main page background */
+  min-height: 100vh; /* Ensure body covers viewport height */
 }
 /* Media Query */
 @media (max-width: 1380px) {
