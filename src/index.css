@@ -5,29 +5,25 @@ html, body {
   width: 100%;
   height: 100%;
   overflow-x: hidden; /* Prevent horizontal scroll */
-}
-
-/* Set the background color for the entire viewport */
-html {
   background-color: #fc7405 !important; /* Orange background behind the content */
 }
 
-/* Main page background color */
+/* Set the background color for the main content */
 body {
   background-color: #ffffff !important; /* Set the main page background color */
 }
 
-/* Ensure no other element overrides this background */
+/* Specific element styles if needed */
+.header, .footer, .main-content {
+  background-color: transparent !important; /* Override any specific background colors */
+}
+
+/* Reset or ensure no other styles override */
 * {
   background-color: transparent !important;
 }
 
-/* Ensure no specific elements are applying a different background color */
-.some-container-class, .header, .footer, .main-content {
-  background-color: transparent !important; /* Adjust as needed */
-}
-
-/* Existing font-face and other styles */
+/* Font-face and existing styles */
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;
