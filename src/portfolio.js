@@ -124,10 +124,10 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Ohio University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/OU.png"),
       subHeader: "Bachelor of Science in Communications - Media Arts & Studies",
       duration: "August 2020 - April 2024",
-      desc: "Participated in Rough Cut Collective.",
+      desc: "3.7 GPA, Cum Laude",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -174,10 +174,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Intern",
+      company: "Black Valley Films",
+      companylogo: require("./assets/images/BVF.png"),
+      date: "August 2023 – December 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
