@@ -2,6 +2,8 @@
 
 .contact-div-main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dark-mode a {
@@ -15,6 +17,7 @@
 .contact-title {
   font-size: 65px;
   font-weight: 400;
+  text-align: center;
 }
 
 .contact-detail,
@@ -35,10 +38,12 @@
 
 .contact-subtitle {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .contact-text-div {
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .contact-margin-top {
@@ -46,17 +51,21 @@
 }
 
 /* Styling for circular image */
-.contact-image {
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Adjust size as needed */
+.profile-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
   border-radius: 50%; /* Makes the image circular */
+  border: 5px solid #fff; /* Optional: Adds a white border */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow */
   object-fit: cover; /* Ensures the image fits within the circle */
+  margin-top: 2rem; /* Adjust margin as needed */
 }
 
 /* Styling for image container */
 .contact-image-div {
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* Adjust as needed */
 }
 
 /* Media Query */
@@ -64,11 +73,6 @@
   .contact-title {
     font-size: 56px;
     font-weight: 400;
-    text-align: center;
-  }
-
-  .contact-title {
-    font-size: 40px;
     text-align: center;
   }
 
@@ -89,6 +93,11 @@
   }
 
   .contact-image-div {
-    display: none; /* Hides the image on smaller screens */
+    margin-top: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .profile-image {
+    width: 100px; /* Adjust size for smaller screens */
+    height: 100px;
   }
 }
