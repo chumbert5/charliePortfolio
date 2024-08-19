@@ -45,9 +45,16 @@
   margin-top: 4rem;
 }
 
-.contact-image-div > img {
-  max-width: 100%;
-  height: auto;
+/* Styling for circular image */
+.contact-image {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+/* Styling for image container */
+.contact-image-div {
   margin-left: 1.5rem;
   margin-top: -4rem;
 }
@@ -82,6 +89,6 @@
   }
 
   .contact-image-div {
-    display: none;
+    display: none; /* Hides the image on smaller screens */
   }
 }
