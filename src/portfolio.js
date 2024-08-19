@@ -132,7 +132,7 @@ const educationInfo = {
         "Placed 1st in 2024 OU 48-Hour Film Shootout",
         "Vice President of Rough Cut Collective (student-run film organizaiton)"
       ]
-    },
+    }
   ]
 };
 
@@ -246,8 +246,8 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
-  ],
+    }
+  ]
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -265,7 +265,6 @@ const achievementSection = {
       title: "Go Fish",
       subtitle:
         "A sci-fi horror/western script inspired by The Twilight Zone",
-      image: require(""),
       imageAlt: "Script",
       footerLink: [
         {
@@ -277,7 +276,6 @@ const achievementSection = {
     {
       title: "Bob's Burgers Spec",
       subtitle: "Currently work-in-progress",
-      image: require(""),
       imageAlt: "Script",
       footerLink: [
         {name: "Certification", url: ""},
@@ -286,12 +284,11 @@ const achievementSection = {
           url: "mailto:charlie_humbert@icloud.com"
         }
       ]
-    }
+    },
     {
       title: "Oil 2000",
       subtitle:
         "The story of two kids and their magic oil well.",
-      image: require(""),
       imageAlt: "Script Image",
       footerLink: [
         {
@@ -300,7 +297,7 @@ const achievementSection = {
         },
       ]
     },
-  ],
+  ]
   display: true // Set false to hide this section, defaults to true
 };
 
