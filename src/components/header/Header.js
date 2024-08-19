@@ -11,7 +11,6 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
 } from "../../portfolio";
 
 function Header() {
