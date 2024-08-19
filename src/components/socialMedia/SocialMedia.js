@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -118,12 +118,12 @@ export default function socialMedia() {
 
       {socialMediaLinks.kaggle ? (
         <a
-          href={socialMediaLinks.kaggle}
-          className="icon-button kaggle"
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-kaggle"></i>
+          <i className="fab fa-youtube"></i>
           <span></span>
         </a>
       ) : null}
