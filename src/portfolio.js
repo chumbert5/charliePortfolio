@@ -26,7 +26,7 @@ const greeting = {
     "A writer and director with interest in animation, comedy, and archival work."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1eA2JMOzz8qPbSvfVBWk3V5uYdADtS38N", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
