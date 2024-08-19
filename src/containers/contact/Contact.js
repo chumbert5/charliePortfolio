@@ -13,7 +13,7 @@ export default function Contact() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
-          <div className="contact-header">
+          <div className="contact-text-div">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
             <p
               className={
@@ -24,35 +24,28 @@ export default function Contact() {
             >
               {contactInfo.subtitle}
             </p>
-            <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
+            {contactInfo.number && (
+              <>
+                <a
+                  className="contact-detail"
+                  href={"tel:" + contactInfo.number}
+                >
+                  {contactInfo.number}
+                </a>
+                <br />
+                <br />
+              </>
+            )}
+            <a
+              className="contact-detail-email"
+              href={"mailto:" + contactInfo.email_address}
             >
-              {contactInfo.number && (
-                <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
-                    {contactInfo.number}
-                  </a>
-                  <br />
-                  <br />
-                </>
-              )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
-              <SocialMedia />
-            </div>
+              {contactInfo.email_address}
+            </a>
+            <br />
+            <br />
+            <SocialMedia />
           </div>
-          {/* Replace Lottie animation with your image */}
           <div className="contact-image-div">
             <img
               src={charlie}
