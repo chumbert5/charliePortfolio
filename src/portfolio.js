@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -287,32 +287,23 @@ const talkSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
+  // Please Provide with Your Resume embedded Link
+  Resume:[
+    "https://drive.google.com/uc?export=download&id=1eA2JMOzz8qPbSvfVBWk3V5uYdADtS38N"
+    ],
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "For inquiries, Resume and Cover Letter copies, or script samples:",
   email_address: "charlie_humbert@icloud.com",
   number: "",
 };
@@ -320,7 +311,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "@chumbert_", //Replace "twitter" with your twitter username without @
+  userName: "chumbert_", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
