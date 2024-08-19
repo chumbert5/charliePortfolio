@@ -1,14 +1,11 @@
 import React, { useContext } from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { illustration, contactInfo } from "../../portfolio";
+import { contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
-// Remove the email import
-// import email from "../../assets/lottie/email";
+import email from "../../assets/lottie/email";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
-// Import the circular image
-import circularImage from "../../assets/images/bottom-circle.jpg";
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
@@ -57,12 +54,14 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {/* Replace the Lottie component with the circular image */}
-            <img
-              alt="Contact"
-              src={circularImage}
-              className="contact-image"
-            />
+            {email ? (
+              <DisplayLottie animationData={email} />
+            ) : (
+              <img
+                alt="Man working"
+                src={require("../../assets/images/contactMailDark.svg")}
+              ></img>
+            )}
           </div>
         </div>
       </div>
