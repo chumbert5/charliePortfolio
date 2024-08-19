@@ -1,38 +1,24 @@
-import React, { useState } from "react";
-import "./BigProjects.scss"; // Make sure this path is correct
+// src/components/BigProjects.js
+import React from 'react';
+import './BigProjects.scss';
 
-const BigProjects = ({ projects }) => {
-  const [activeTab, setActiveTab] = useState(0);
-
+const BigProjects = () => {
   return (
     <div className="big-projects">
-      <div className="tabs">
-        {projects.map((project, index) => (
-          <button
-            key={index}
-            className={`tab ${activeTab === index ? "active" : ""}`}
-            onClick={() => setActiveTab(index)}
-          >
-            {project.projectName}
-          </button>
-        ))}
-      </div>
-      <div className="content">
-        {projects[activeTab] && (
-          <div className="project-details">
-            <img src={projects[activeTab].image} alt={projects[activeTab].projectName} />
-            <h3>{projects[activeTab].projectName}</h3>
-            <p>{projects[activeTab].projectDesc}</p>
-            {projects[activeTab].footerLink.map((link, idx) => (
-              <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer">
-                {link.name}
-              </a>
-            ))}
-          </div>
-        )}
+      <h1>My Big Projects</h1>
+      <div className="project-list">
+        <div className="project-item">
+          <h2>Project 1</h2>
+          <p>Description of Project 1.</p>
+        </div>
+        <div className="project-item">
+          <h2>Project 2</h2>
+          <p>Description of Project 2.</p>
+        </div>
+        {/* Add more project items as needed */}
       </div>
     </div>
   );
-};
+}
 
 export default BigProjects;
