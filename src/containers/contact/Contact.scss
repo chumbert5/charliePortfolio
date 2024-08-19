@@ -42,6 +42,7 @@
 
 .contact-text-div {
   margin-top: 1.5rem;
+  flex: 2; /* Take up more space */
 }
 
 .contact-margin-top {
@@ -64,6 +65,7 @@
   justify-content: flex-end; /* Align image to the right */
   align-items: center;
   padding-left: 2rem;
+  flex: 1; /* Take up less space */
 }
 
 /* Media Query */
@@ -81,4 +83,27 @@
 
   .contact-subtitle {
     font-size: 16px;
-   ​⬤
+    line-height: normal;
+    text-align: center;
+  }
+
+  .contact-text-div {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .contact-detail,
+  .contact-detail-email {
+    font-size: 20px;
+  }
+
+  .contact-image-div {
+    margin-top: 1rem; /* Add some spacing when stacked */
+    justify-content: center; /* Center the image on smaller screens */
+  }
+
+  .profile-image {
+    width: 100px; /* Adjust size for smaller screens */
+    height: 100px;
+  }
+}
