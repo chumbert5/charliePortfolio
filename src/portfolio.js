@@ -340,7 +340,7 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  podcastSection
+  podcastSection,
   talkSection,
   contactInfo,
   twitterDetails,
