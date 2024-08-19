@@ -261,7 +261,7 @@ const achievementSection = {
     {
       title: "Go Fish",
       subtitle: "A sci-fi horror/western script inspired by The Twilight Zone",
-      image: require("./assets/images/blank.png"),
+      image: blankImageDataUrl,
       imageAlt: "",
       footerLink: [
         {
@@ -273,13 +273,9 @@ const achievementSection = {
     {
       title: "Bob's Burgers Spec",
       subtitle: "Currently work-in-progress",
-      image: require("./assets/images/blank.png"),
+      image: blankImageDataUrl,
       imageAlt: "",
       footerLink: [
-        {
-          name: "Certification",
-          url: "" // Ensure there's a comma if more items are added
-        },
         {
           name: "Email me for a sample",
           url: "mailto:charlie_humbert@icloud.com"
@@ -289,7 +285,7 @@ const achievementSection = {
     {
       title: "Oil 2000",
       subtitle: "The story of two kids and their magic oil well.",
-      image: require("./assets/images/blank.png"),
+      image: blankImageDataUrl,
       imageAlt: "",
       footerLink: [
         {
