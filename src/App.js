@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css'; // Adjust path if needed
+import './App.scss'; // Adjust path if needed
 import { bigProjects } from './portfolio'; // Import bigProjects from portfolio
-import BigProjects from './components/BigProjects'; // Import the BigProjects component
+import BigProjects from './components/bigProjects'; // Import the BigProjects component
 
 function App() {
   return (
