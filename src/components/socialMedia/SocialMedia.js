@@ -117,16 +117,16 @@ export default function socialMedia() {
       ) : null}
 
       {socialMediaLinks.kaggle ? (
-        <a
-          href={socialMediaLinks.youtube}
-          className="icon-button youtube"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-youtube"></i>
-          <span></span>
-        </a>
-      ) : null}
+  <a
+    href={socialMediaLinks.kaggle}
+    className="icon-button kaggle"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="fab fa-youtube"></i> {/* Change the icon class to YouTube */}
+    <span></span>
+  </a>
+) : null}
     </div>
   );
 }
