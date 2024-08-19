@@ -261,7 +261,6 @@ const achievementSection = {
     {
       title: "Go Fish",
       subtitle: "A sci-fi horror/western script inspired by The Twilight Zone",
-      imageAlt: "Script",
       footerLink: [
         {
           name: "Email me for a sample",
@@ -272,7 +271,6 @@ const achievementSection = {
     {
       title: "Bob's Burgers Spec",
       subtitle: "Currently work-in-progress",
-      imageAlt: "Script",
       footerLink: [
         {
           name: "Certification",
@@ -287,7 +285,6 @@ const achievementSection = {
     {
       title: "Oil 2000",
       subtitle: "The story of two kids and their magic oil well.",
-      imageAlt: "Script Image",
       footerLink: [
         {
           name: "Download link",
