@@ -3,9 +3,8 @@ import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
-import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import charlie from "../../assets/images/charlie.jpeg"; // Import your image
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
@@ -53,15 +52,13 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
+          {/* Replace Lottie animation with your image */}
           <div className="contact-image-div">
-            {email ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
+            <img
+              src={charlie}
+              alt="Charlie"
+              className="profile-image"
+            />
           </div>
         </div>
       </div>
