@@ -158,18 +158,6 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/oil2000.jpg"),
-      projectName: "Oil 2000",
-      projectDesc: "A comedy short I wrote and directed in Fall 2022",
-      footerLink: [
-        {
-          name: "Watch it here",
-          url: "https://youtube.com/watch?v=Sb4DrsD5hEc"
-        }
-        // Ensure there's a comma after the last object if more items are added
-      ]
-    },
-    {
       image: require("./assets/images/MyMainSqueeze.jpg"),
       projectName: "My Main Squeeze",
       projectDesc: "Winner of Ohio University's 2024 48-hour Film Shootout. I co-wrote, DP'ed, and edited",
@@ -182,6 +170,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/submarineMovie.jpg"),
+      projectName: "Submarine Movie",
+      projectDesc: "Short film made with Rough Cut Collective. Credit: Assistant Director",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=gVo95bUI3xU"
+        }
+        // Ensure there's a comma after the last object if more items are added
+      ]
+    },
+    {
       image: require("./assets/images/overdue.jpg"),
       projectName: "Overdue",
       projectDesc: "Short film made with Rough Cut Collective. Credit: Director of Photography",
@@ -189,6 +189,66 @@ const bigProjects = {
         {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=KzjpZy3RlMM"
+        }
+        // Ensure there's a comma after the last object if more items are added
+      ]
+    },
+    {
+      image: require("./assets/images/greenday.jpg"),
+      projectName: "'Green Day - Westbound Sign' Music Video",
+      projectDesc: "A music video I co-shot and co-edited for a class. And yes, I *did* pick the song.",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=-8lrw3tLTMU"
+        }
+        // Ensure there's a comma after the last object if more items are added
+      ]
+    },
+    {
+      image: require("./assets/images/twitys.jpg"),
+      projectName: "That's What I Thought You'd Say",
+      projectDesc: "A comedy short I acted in",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=73b4fSkWkEo"
+        }
+        // Ensure there's a comma after the last object if more items are added
+      ]
+    },
+    {
+      image: require("./assets/images/alacadamn.jpg"),
+      projectName: "Alacadamn",
+      projectDesc: "Third-place Winner of Ohio University's 2023 48-hour Film Shootout. I co-wrote, acted, and edited",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=M7dBKGNGtHo"
+        }
+        // Ensure there's a comma after the last object if more items are added
+      ]
+    },
+    {
+      image: require("./assets/images/oil2000.jpg"),
+      projectName: "Oil 2000",
+      projectDesc: "A comedy short I wrote and directed in Fall 2022",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://youtube.com/watch?v=Sb4DrsD5hEc"
+        }
+        // Ensure there's a comma after the last object if more items are added
+      ]
+    },
+    {
+      image: require("./assets/images/allitrot.jpg"),
+      projectName: "The Quest for Allitrot",
+      projectDesc: "Second-place winner of Ohio University's 2022 48-hour Film Shootout. I co-wrote, acted, and edited.",
+      footerLink: [
+        {
+          name: "Watch it here",
+          url: "https://www.youtube.com/watch?v=Xhso7LJmu8c"
         }
         // Ensure there's a comma after the last object if more items are added
       ]
