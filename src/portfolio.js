@@ -36,6 +36,7 @@ const socialMediaLinks = {
   // github: "https://github.com/chumbert",
   linkedin: "https://www.linkedin.com/in/charliehumbert/",
   gmail: "charlie_humbert@icloud.com",
+  kaggle: "https://www.youtube.com/@chumbert5",
   instagram: "https://instagram.com/chumbert_",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
