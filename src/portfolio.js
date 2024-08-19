@@ -220,7 +220,7 @@ const bigProjects = {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=Sb4DrsD5hEc"
         }
-        //  you can add extra buttons here.
+        // you can add extra buttons here.
       ]
     },
     {
@@ -232,7 +232,7 @@ const bigProjects = {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=ir-1YJ0kQxA"
         }
-        //  you can add extra buttons here.
+        // you can add extra buttons here.
       ]
     },
     {
@@ -244,10 +244,10 @@ const bigProjects = {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=KzjpZy3RlMM"
         }
-        //  you can add extra buttons here.
+        // you can add extra buttons here.
       ]
     }
-  ]
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -297,7 +297,7 @@ const achievementSection = {
         },
       ]
     },
-  ]
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
