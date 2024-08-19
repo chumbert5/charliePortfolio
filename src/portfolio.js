@@ -220,7 +220,7 @@ const bigProjects = {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=Sb4DrsD5hEc"
         }
-        // you can add extra buttons here.
+        // Ensure there's a comma after the last object if more items are added
       ]
     },
     {
@@ -232,7 +232,7 @@ const bigProjects = {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=ir-1YJ0kQxA"
         }
-        // you can add extra buttons here.
+        // Ensure there's a comma after the last object if more items are added
       ]
     },
     {
@@ -244,11 +244,11 @@ const bigProjects = {
           name: "Watch it here",
           url: "https://youtube.com/watch?v=KzjpZy3RlMM"
         }
-        // you can add extra buttons here.
+        // Ensure there's a comma after the last object if more items are added
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -256,15 +256,11 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Script Samples 📝"),
-  subtitle:
-    "Various projects I've written",
-
+  subtitle: "Various projects I've written",
   achievementsCards: [
-    
     {
       title: "Go Fish",
-      subtitle:
-        "A sci-fi horror/western script inspired by The Twilight Zone",
+      subtitle: "A sci-fi horror/western script inspired by The Twilight Zone",
       imageAlt: "Script",
       footerLink: [
         {
@@ -278,7 +274,10 @@ const achievementSection = {
       subtitle: "Currently work-in-progress",
       imageAlt: "Script",
       footerLink: [
-        {name: "Certification", url: ""},
+        {
+          name: "Certification",
+          url: "" // Ensure there's a comma if more items are added
+        },
         {
           name: "Email me for a sample",
           url: "mailto:charlie_humbert@icloud.com"
@@ -287,18 +286,18 @@ const achievementSection = {
     },
     {
       title: "Oil 2000",
-      subtitle:
-        "The story of two kids and their magic oil well.",
+      subtitle: "The story of two kids and their magic oil well.",
       imageAlt: "Script Image",
       footerLink: [
         {
           name: "Download link",
           url: "https://drive.google.com/uc?export=download&id=1pVG2zsV-WHVDXPQwYvxhxhbZvdNXUlD0"
-        },
+        }
+        // Ensure there's a comma if more items are added
       ]
-    },
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true //set to show or hide
 };
 
 // Blogs Section
