@@ -169,6 +169,7 @@ const bigProjects = {
         // Ensure there's a comma after the last object if more items are added
       ]
     },
+    /*
     {
       image: require("./assets/images/submarineMovie.jpg"),
       projectName: "Submarine Movie",
@@ -181,6 +182,7 @@ const bigProjects = {
         // Ensure there's a comma after the last object if more items are added
       ]
     },
+    */
     {
       image: require("./assets/images/overdue.jpg"),
       projectName: "Overdue",
@@ -205,6 +207,7 @@ const bigProjects = {
         // Ensure there's a comma after the last object if more items are added
       ]
     },
+    /*
     {
       image: require("./assets/images/twitys.jpg"),
       projectName: "That's What I Thought You'd Say",
@@ -217,6 +220,7 @@ const bigProjects = {
         // Ensure there's a comma after the last object if more items are added
       ]
     },
+    */
     {
       image: require("./assets/images/alacadamn.jpg"),
       projectName: "Alacadamn",
