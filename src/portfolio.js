@@ -154,7 +154,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Short Films",
+  title: "Projects",
   subtitle: "SOME PROJECTS I HAVE WORKED ON",
   projects: [
     {
