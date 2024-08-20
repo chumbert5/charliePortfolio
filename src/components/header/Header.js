@@ -7,7 +7,7 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  bigProjects
+  bigProjects,
   openSource,
   blogSection,
   talkSection,
