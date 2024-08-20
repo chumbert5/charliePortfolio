@@ -1,9 +1,10 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import "./Project.scss";
 import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
+import { openSource, socialMediaLinks } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -11,8 +12,7 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  // todo: remove useContex because is not supported
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext); // Only keep if `useContext` is actually supported
 
   useEffect(() => {
     const getRepoData = () => {
@@ -24,21 +24,18 @@ export default function Projects() {
           throw result;
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          setrepo(response.data.user.pinnedItems.edges); // Simplified function call
         })
         .catch(function (error) {
           console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
+            `Error fetching repository data: ${error.message}`
           );
-          setrepoFunction("Error");
+          setrepo("Error");
         });
     };
     getRepoData();
   }, []);
 
-  function setrepoFunction(array) {
-    setrepo(array);
-  }
   if (
     !(typeof repo === "string" || repo instanceof String) &&
     openSource.display
@@ -53,6 +50,7 @@ export default function Projects() {
                 console.error(
                   `Github Object for repository number : ${i} is undefined`
                 );
+                return null;
               }
               return (
                 <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
